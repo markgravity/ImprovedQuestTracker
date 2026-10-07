@@ -1,0 +1,12 @@
+## Interface: 16001, 50500, 50503, 50504
+## Title: Improved Quest Tracker
+## Notes: Adds sort options (zone, level, title, completed) to the quest tracker
+## Author: markg
+## Version: 0.1.0
+## SavedVariablesPerCharacter: ImprovedQuestTrackerDB
+
+Core.lua
+Sort.lua
+Dropdown.lua
+Menu.lua
+Slash.lua

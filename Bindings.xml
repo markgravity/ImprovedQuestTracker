@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="IMPROVEDQUESTTRACKER_TOGGLE" header="IMPROVEDQUESTTRACKER" category="ADDONS">
+		ImprovedQuestTracker_ToggleDropdown()
+	</Binding>
+</Bindings>
