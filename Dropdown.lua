@@ -80,6 +80,12 @@ local function BuildEntries()
 			onSelect = function() IQT.SetSortCompleted(c.id) end,
 		}
 	end
+	list[#list + 1] = { kind = "divider" }
+	list[#list + 1] = {
+		kind = "checkbox", text = "Objective complete sound",
+		isSelected = function() return IQT.Settings().objectiveSound end,
+		onSelect = function() IQT.SetObjectiveSound(not IQT.Settings().objectiveSound) end,
+	}
 	return list
 end
 

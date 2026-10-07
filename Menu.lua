@@ -28,6 +28,11 @@ local function BuildMenu(rootDescription)
 	for _, c in ipairs(IQT.COMPLETED) do
 		rootDescription:CreateRadio(c.text, IsCompletedSelected, IQT.SetSortCompleted, c.id)
 	end
+
+	rootDescription:CreateDivider()
+	rootDescription:CreateCheckbox("Objective complete sound",
+		function() return IQT.Settings().objectiveSound end,
+		function() IQT.SetObjectiveSound(not IQT.Settings().objectiveSound) end)
 end
 
 -- Frames are created without a parent, then parented (Forever hooks

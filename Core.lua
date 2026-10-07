@@ -22,6 +22,7 @@ local DEFAULTS = {
 	sort = "none",
 	sortCompleted = "none",
 	currentZoneFirst = true,
+	objectiveSound = true,
 }
 
 function IQT.Settings()
@@ -82,6 +83,7 @@ frame:SetScript("OnEvent", function(self, event, ...)
 		end
 		IQT.InitSort()
 		IQT.InitMenu()
+		IQT.InitObjectiveSound()
 		self:RegisterEvent("QUEST_LOG_UPDATE")
 		self:RegisterEvent("QUEST_WATCH_LIST_CHANGED")
 		self:RegisterEvent("QUEST_ACCEPTED")
