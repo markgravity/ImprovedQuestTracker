@@ -1,0 +1,13 @@
+package-as: ImprovedQuestTracker
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - tools
+  - dist
+  - .claude
+  - .github
+  - .gitignore
+  - .env

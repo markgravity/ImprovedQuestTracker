@@ -2,6 +2,9 @@
 ## Title: Improved Quest Tracker
 ## Notes: Adds sort options (zone, level, title, distance, completed) and an objective complete sound to the quest tracker
 ## Author: markg
+## X-Website: https://github.com/markgravity/ImprovedQuestTracker
+## X-License: MIT
+## IconTexture: Interface\AddOns\ImprovedQuestTracker\textures\ic_addon
 ## Version: 0.1.0
 ## SavedVariablesPerCharacter: ImprovedQuestTrackerDB
 
