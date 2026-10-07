@@ -4,6 +4,7 @@
 ## Author: markg
 ## X-Website: https://github.com/markgravity/ImprovedQuestTracker
 ## X-License: MIT
+## X-Curse-Project-ID: 1731489
 ## IconTexture: Interface\AddOns\ImprovedQuestTracker\textures\ic_addon
 ## Version: 0.1.0
 ## SavedVariablesPerCharacter: ImprovedQuestTrackerDB
